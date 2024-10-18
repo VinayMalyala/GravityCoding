@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-1</title>
+    <style>
+        legend{
+            text-align: center;
+        }
+        fieldset {
+            width: 35%; /* Set the width of the fieldset */
+        }
+    </style>
+</head>
+<body>
+    <!-- main heading -->
+     <h1>Create Form Challenge:</h1>
+     <h3>Please share your personal details here:</h3>
+
+     <!-- form -->
+     <form action="#">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" id="firstName" name="firstName">
+            <br><br>
+            
+            <label for="lastName">Last Name</label>
+            <br>
+            <input type="text" id="lastName" name="lastName">
+            <br><br>
+            
+            <label for="birthday">Birthday</label>
+            <br>
+            <input type="date" id="birthday" name="birthday">
+        </fieldset>
+
+        <p>Can you tell us a little more?</p>
+        
+        <fieldset width="50%">
+            <legend>Further Information</legend>
+
+
+            <label for="favColor">Favorite Color:</label>
+            <input type="color" id="favColor" name="favColor">
+            <br><br>
+            
+            <label for="favPet">What's your favorite pet?</label>
+            <br>
+            <input type="text" id="favPet" name="favPet">
+            <br><br>
+            
+            <label for="preference">Do you like:</label>
+            <br>
+            <input type="radio" name="preference" id="mountains" value="mountains">
+            <label for="mountains">Mountains</label>
+            <input type="radio" name="preference" id="beaches" value="beaches">
+            <label for="beaches">beaches</label>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

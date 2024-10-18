@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-1</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th, td {
+            height: 40px;
+        }
+
+        .crossed-text{
+            text-decoration: line-through;
+        }
+
+        .school-timing {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- main heading -->
+    <h1>This is HTML Challenge:</h1>
+
+    <!-- topic name -->
+    <p><b>HTML</b> (HyperText Markup Language)</p>
+    <p>It is standard language used to create and design <a href="#">web pages</a> on internet</p>
+
+    <!-- question 1 -->
+    <h3>1. HTML is an?</h3>
+    <ol type="i">
+        <li>Markup Language</li>
+        <li>Programming Language</li>
+        <li>None of these</li>
+        <h4>Ans: _______________</h4>
+    </ol>
+    
+    
+    <!-- question 2 -->
+    <h3>2. CSS is used for</h3>
+    <ol type="i">
+        <li>Styling</li>
+        <li>Scripting</li>
+        <li>None of these</li>
+        <h4>Ans: _______________</h4>
+    </ol>
+
+    <!-- time table  -->
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <td>Day/Period</td>
+            <td>I</td>
+            <td>II</td>
+            <td></td>
+            <td>III</td>
+            <td>IV</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td class="crossed-text">Lunch</td>
+            <td>EVS</td>
+            <td>LAB</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td rowspan="4" colspan="1">Lunch</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">LAB</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td>EVS</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2"><b>SEMINAR</b></td>
+            <td colspan="2">Sports</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="school-timing"><strong>School Timing:</strong> 10:00 AM to 4:00 PM</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
