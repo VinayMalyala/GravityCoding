@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", serif;
+}
+
+body{
+    display: flex;
+}
+
+.left-section{
+    height: 100vh;
+    width: 50%;
+    background-color: #fefae0;
+    padding: 30px 45px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    position: relative;
+    margin-left: 20px;
+}
+
+.logo img{
+    position: absolute;
+    height: 25px;
+    left: -14px;
+    bottom: 4px;
+}
+
+.logo h2{
+    font-weight: 500;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-right: 8rem;
+}
+
+.nav_item{
+    list-style-type: none;
+}
+
+.nav_links{
+    text-decoration: none;
+    color: #222;
+}
+
+.home_section{
+    position: absolute;
+    top: 45%;
+    margin: 0 5rem;
+    transform: translateY(-45%);
+}
+
+.home_section h2{
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.home_section p{
+    width: 80%;
+}
+
+.button{
+    background-color: #222;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.home_section div{
+    position: absolute;
+    bottom: -1px;
+    left: 135px;
+}
+
+.home_section img{
+    height: 34px;
+    position: relative;
+}
+
+.home_section img:nth-child(2){
+    left: -17px;
+}
+
+.home_section img:nth-child(3){
+    left: -34px;
+}
+
+.right-section{
+    height: 100vh;
+    width: 50%;
+    background-image: url("images/bg-image.avif");
+    background-size: cover;
+    background-position: 50% 15%;
+    padding: 6px 45px;
+    position: relative;
+}
+
+.call_action{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+}
+
+.call_action img{
+    height: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.food_item{
+    height: 435px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(55%, -43%);
+}
+
+.menu-section{
+    position: absolute;
+    background: #22222256;
+    padding: 20px 35px;
+    display: flex;
+    gap: 3rem;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+}
+
+.menu_item{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 10px 19px;
+    border-radius: 7px;
+}
+
+.menu_item img{
+    height: 40px;
+}
+
+.menu_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_details h4{
+    font-size: 14px;
+}
+
+.menu_details h2{
+    font-family: "EB Garamond", serif;
+    font-size: 1.8rem;
+    color: orangered;
+}
+
+.bag_image{
+    background-color: #000;
+    padding: 6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bag_image img{
+    height: 15px;
+}
